@@ -1,6 +1,6 @@
-import { IconFont, BlockAvatarWrapper } from 'easy-email-editor';
+import { IconFont, BlockAvatarWrapper } from 'suma-editor';
 import React, { useCallback, useEffect, useRef } from 'react';
-import { BlockType } from 'easy-email-core';
+import { BlockType } from 'suma-editor-base';
 import styles from './index.module.scss';
 
 export const BlockMaskWrapper: React.FC<{

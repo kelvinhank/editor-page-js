@@ -1,4 +1,4 @@
-import { BasicType, AdvancedType } from 'easy-email-core';
+import { BasicType, AdvancedType } from 'suma-editor-base';
 
 export function isNavbarBlock(blockType: any) {
   return blockType === BasicType.NAVBAR || blockType === AdvancedType.NAVBAR;

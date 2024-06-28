@@ -22,13 +22,11 @@
     "paths": {
       "@demo": ["src"],
       "@demo/*": ["src/*"],
-      "easy-email-localization/*": ["../packages/easy-email-localization/*"],
-      "easy-email-editor/lib/locales.json": [
-        "../packages/easy-email-editor/lib/locales.json"
-      ],
-      "easy-email-editor": ["../packages/easy-email-editor/src/index.tsx"],
-      "easy-email-core": ["../packages/easy-email-core/src/index.tsx"],
-      "easy-email-extensions": ["../packages/easy-email-extensions/src/index.tsx"],
+      "suma-editor-localization/*": ["../packages/suma-editor-localization/*"],
+      "suma-editor/lib/locales.json": ["../packages/suma-editor/lib/locales.json"],
+      "suma-editor": ["../packages/suma-editor/src/index.tsx"],
+      "suma-editor-base": ["../packages/suma-editor-base/src/index.tsx"],
+      "suma-editor-extensions": ["../packages/suma-editor-extensions/src/index.tsx"],
       "easy-email-config-panel": ["../packages/easy-email-config-panel/src/index.tsx"]
     }
   },

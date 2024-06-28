@@ -8,7 +8,7 @@ import {
   useEditorProps,
   useFocusBlockLayout,
   MergeTagBadge,
-} from 'easy-email-editor';
+} from 'suma-editor';
 import { FontFamily } from '../FontFamily';
 import { MergeTags } from '../MergeTags';
 import { useSelectionRange } from '@extensions/AttributePanel/hooks/useSelectionRange';
@@ -128,62 +128,62 @@ export function Tools(props: ToolsProps) {
             getPopupContainer={getPopoverMountNode}
           />
         )}
-        <div className='easy-email-extensions-divider' />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <FontFamily
           execCommand={execCommand}
           getPopupContainer={getPopoverMountNode}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <FontSize
           execCommand={execCommand}
           getPopupContainer={getPopoverMountNode}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <Bold
           currentRange={selectionRange}
           onChange={() => execCommandWithRange('bold')}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <Italic
           currentRange={selectionRange}
           onChange={() => execCommandWithRange('italic')}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <StrikeThrough
           currentRange={selectionRange}
           onChange={() => execCommandWithRange('strikeThrough')}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <Underline
           currentRange={selectionRange}
           onChange={() => execCommandWithRange('underline')}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <IconFontColor
           selectionRange={selectionRange}
           execCommand={execCommand}
           getPopoverMountNode={getPopoverMountNode}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <IconBgColor
           selectionRange={selectionRange}
           execCommand={execCommand}
           getPopoverMountNode={getPopoverMountNode}
         />
 
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <Link
           currentRange={selectionRange}
           onChange={values => execCommand('createLink', values)}
           getPopupContainer={getPopoverMountNode}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <Unlink
           currentRange={selectionRange}
           onChange={() => execCommand('')}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
 
         <ToolItem
           onClick={() => execCommand('justifyLeft')}
@@ -200,7 +200,7 @@ export function Tools(props: ToolsProps) {
           icon={<IconFont iconName='icon-align-right' />}
           title={t('Align right')}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <ToolItem
           onClick={() => execCommand('insertOrderedList')}
           icon={<IconFont iconName='icon-list-ol' />}
@@ -211,20 +211,20 @@ export function Tools(props: ToolsProps) {
           icon={<IconFont iconName='icon-list-ul' />}
           title={t('Unorderlist')}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
 
         <ToolItem
           onClick={() => execCommand('insertHorizontalRule')}
           icon={<IconFont iconName='icon-line' />}
           title={t('Line')}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
         <ToolItem
           onClick={() => execCommand('removeFormat')}
           icon={<IconFont iconName='icon-close' />}
           title={t('Remove format')}
         />
-        <div className='easy-email-extensions-divider' />
+        <div className='suma-editor-extensions-divider' />
       </div>
     </div>
   );

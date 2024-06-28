@@ -53,7 +53,7 @@ const Tabs: React.FC<TabsProps> = props => {
       style={props.style}
       className={props.className}
     >
-      <div className='easy-email-editor-tabWrapper'>
+      <div className='suma-editor-tabWrapper'>
         <Stack
           distribution='equalSpacing'
           alignment='center'
@@ -67,9 +67,9 @@ const Tabs: React.FC<TabsProps> = props => {
                     key={item.key}
                     onClick={() => onClick(item.key)}
                     className={classnames(
-                      'easy-email-editor-tabItem',
-                      !activeTab && index === 0 && 'easy-email-editor-tabActiveItem',
-                      activeTab === item.key && 'easy-email-editor-tabActiveItem',
+                      'suma-editor-tabItem',
+                      !activeTab && index === 0 && 'suma-editor-tabActiveItem',
+                      activeTab === item.key && 'suma-editor-tabActiveItem',
                     )}
                   >
                     <Button noBorder>

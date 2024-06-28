@@ -1,8 +1,14 @@
 import React from 'react';
 
-import { BasicType } from 'easy-email-core';
+import { BasicType } from 'suma-editor-base';
 import { createPortal } from 'react-dom';
-import { IconFont, useBlock, useFocusIdx, BlockAvatarWrapper, useFocusBlockLayout } from 'easy-email-editor';
+import {
+  IconFont,
+  useBlock,
+  useFocusIdx,
+  BlockAvatarWrapper,
+  useFocusBlockLayout,
+} from 'suma-editor';
 import { Toolbar } from './Toolbar';
 
 export function FocusTooltip() {
@@ -17,7 +23,7 @@ export function FocusTooltip() {
     <>
       {createPortal(
         <div
-          id='easy-email-extensions-InteractivePrompt-FocusTooltip'
+          id='suma-editor-extensions-InteractivePrompt-FocusTooltip'
           style={{
             position: 'absolute',
             width: '100%',
@@ -106,7 +112,7 @@ export function FocusTooltip() {
           </div>
         </div>,
 
-        focusBlockNode
+        focusBlockNode,
       )}
     </>
   );

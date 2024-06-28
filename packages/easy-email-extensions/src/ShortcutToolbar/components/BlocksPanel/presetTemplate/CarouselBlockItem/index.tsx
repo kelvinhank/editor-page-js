@@ -1,6 +1,6 @@
 import React from 'react';
-import { AdvancedType } from 'easy-email-core';
-import { Stack } from 'easy-email-editor';
+import { AdvancedType } from 'suma-editor-base';
+import { Stack } from 'suma-editor';
 
 import { BlockMaskWrapper } from '@extensions/ShortcutToolbar/components/BlockMaskWrapper';
 import { getImg } from '@extensions/ShortcutToolbar/utils/getImg';

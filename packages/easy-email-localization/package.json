@@ -1,8 +1,8 @@
 {
-  "name": "easy-email-localization",
+  "name": "suma-editor-localization",
   "license": "MIT",
   "description": "Email editor",
-  "version": "4.15.0",
+  "version": "1.0.0",
   "author": "m-Ryan",
   "keywords": [],
   "files": [

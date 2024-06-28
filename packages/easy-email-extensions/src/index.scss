@@ -1,27 +1,27 @@
-[arco-theme="dark"] {
-  .easy-email-editor-tabWrapper {
+[arco-theme='dark'] {
+  .suma-editor-tabWrapper {
     background-color: var(--color-bg-3);
   }
   .arco-layout {
     background-color: var(--color-bg-3);
   }
-  .easy-email-editor-button {
+  .suma-editor-button {
     background-color: var(--color-secondary);
     color: var(--color-text-2);
     border: 1px solid transparent;
   }
-  .easy-email-editor-button:hover {
+  .suma-editor-button:hover {
     border-color: var(--color-neutral-4);
     color: var(--color-text-2);
     background-color: var(--color-fill-3);
   }
 
-  .easy-email-editor-button[disabled] {
+  .suma-editor-button[disabled] {
     background-color: var(--color-secondary);
     color: var(--color-text-2);
     border: 1px solid transparent;
   }
-  .easy-email-editor-button[disabled]:hover {
+  .suma-editor-button[disabled]:hover {
     background-color: var(--color-secondary);
     color: var(--color-text-2);
     border: 1px solid transparent;

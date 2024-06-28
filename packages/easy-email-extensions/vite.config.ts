@@ -14,8 +14,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@extensions': path.resolve('./src'),
-      'easy-email-core': path.resolve('../easy-email-core/lib'),
-      'easy-email-editor': path.resolve('../easy-email-editor/lib'),
+      'suma-editor-base': path.resolve('../suma-editor-base/lib'),
+      'suma-editor': path.resolve('../suma-editor/lib'),
     },
   },
   define: {},
@@ -39,8 +39,8 @@ export default defineConfig({
         'react-dom/server',
         'mjml-browser',
         'react-final-form',
-        'easy-email-core',
-        'easy-email-editor',
+        'suma-editor-base',
+        'suma-editor',
         'uuid',
       ],
       output: {},

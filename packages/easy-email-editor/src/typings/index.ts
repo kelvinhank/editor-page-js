@@ -1,4 +1,4 @@
-import { IPage } from 'easy-email-core';
+import { IPage } from 'suma-editor-base';
 
 export interface IEmailTemplate {
   content: IPage;

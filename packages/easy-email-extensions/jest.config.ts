@@ -10,8 +10,8 @@ export default {
   coveragePathIgnorePatterns: ['/node_modules/'],
   coverageProvider: 'babel',
   moduleNameMapper: {
-    '@core/(.+)': path.join(__dirname, '../easy-email-core/src/$1'),
-    '^easy-email-core$': path.join(__dirname, '../easy-email-core/src/index.tsx'),
+    '@core/(.+)': path.join(__dirname, '../suma-editor-base/src/$1'),
+    '^suma-editor-base$': path.join(__dirname, '../suma-editor-base/src/index.tsx'),
     '\\.(css|less|scss|sass)$': '<rootDir>/__mocks__/styleMock.js',
   },
   testMatch: ['<rootDir>/src/**/__tests__/**/*.[jt]s?(x)'],

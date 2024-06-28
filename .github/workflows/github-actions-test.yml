@@ -26,14 +26,14 @@ jobs:
 
       - name: Install dependencies core
         run: |
-          cd packages/easy-email-core && pnpm install
+          cd packages/suma-editor-base && pnpm install
 
       - name: Run tests core
         run: pnpm run test:core
 
       - name: Install dependencies extensions
         run: |
-          cd packages/easy-email-extensions && pnpm install
+          cd packages/suma-editor-extensions && pnpm install
 
       - name: Run tests extensions
         run: pnpm run test:extensions

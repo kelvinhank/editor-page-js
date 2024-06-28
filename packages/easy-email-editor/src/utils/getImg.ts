@@ -1,4 +1,4 @@
-import { ImageManager } from 'easy-email-core';
+import { ImageManager } from 'suma-editor-base';
 
 const defaultImagesMap = {
   IMAGE_59:

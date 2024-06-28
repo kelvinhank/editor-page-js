@@ -1,21 +1,21 @@
-# Easy-email-core
+# suma-editor-base
 
 ## Usage
 
 ```sh
-$ npm install --save easy-email-core
+$ npm install --save suma-editor-base
 ```
 
 or
 
 ```sh
-$ yarn add easy-email-core
+$ yarn add suma-editor-base
 ```
 
 ## transform json to mjml
 
 ```ts
-import { JsonToMjml } from 'easy-email-core';
+import { JsonToMjml } from 'suma-editor-base';
 
 const xml = JsonToMjml({
   data: json,
@@ -246,7 +246,7 @@ import {
   JsonToMjml,
   BasicType,
   BlockManager,
-} from 'easy-email-core';
+} from 'suma-editor-base';
 const { Section, Column, Image, Button } = components;
 
 type IMyFirstBlock = IBlockData<

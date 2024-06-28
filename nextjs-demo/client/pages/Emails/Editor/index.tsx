@@ -1,18 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { AdvancedType } from 'easy-email-core';
+import { AdvancedType } from 'suma-editor-base';
 import {
   EmailEditor,
   EmailEditorProvider,
   EmailEditorProviderProps,
   IEmailTemplate,
   Stack,
-} from 'easy-email-editor';
-import { ExtensionProps, StandardLayout } from 'easy-email-extensions';
+} from 'suma-editor';
+import { ExtensionProps, StandardLayout } from 'suma-editor-extensions';
 import { useWindowSize } from 'react-use';
 import { Button, Message, PageHeader } from '@arco-design/web-react';
-import 'easy-email-editor/lib/style.css';
-import 'easy-email-extensions/lib/style.css';
+import 'suma-editor/lib/style.css';
+import 'suma-editor-extensions/lib/style.css';
 
 const fontList = [
   'Arial',

@@ -6,7 +6,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
-      'easy-email-core': path.resolve('../easy-email-core'),
+      'suma-editor-base': path.resolve('../suma-editor-base'),
     },
   },
   define: {},
@@ -18,7 +18,7 @@ export default defineConfig({
     target: 'es2015',
     lib: {
       entry: path.resolve(__dirname, 'src/index.tsx'),
-      name: 'easy-email-editor',
+      name: 'suma-editor',
       formats: ['es'],
       fileName: () => 'index.js',
     },
@@ -30,14 +30,14 @@ export default defineConfig({
         'react-dom/server',
         'mjml-browser',
         'react-final-form',
-        'easy-email-core',
+        'suma-editor-base',
       ],
       output: {},
     },
     outDir: 'lib',
   },
   optimizeDeps: {
-    include: ['easy-email-core'],
+    include: ['suma-editor-base'],
   },
   css: {
     modules: {

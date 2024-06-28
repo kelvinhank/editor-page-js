@@ -1,25 +1,25 @@
-# Easy-email-extensions
+# suma-editor-extensions
 
 ## usage
 
 ```sh
-$ npm install --save easy-email-extensions
+$ npm install --save suma-editor-extensions
 ```
 
 or
 
 ```sh
-$ yarn add easy-email-extensions
+$ yarn add suma-editor-extensions
 ```
 
 ```js
 import React from 'react';
-import { BlockManager, BasicType, AdvancedType } from 'easy-email-core';
-import { EmailEditor, EmailEditorProvider } from 'easy-email-editor';
-import { ExtensionProps, StandardLayout } from 'easy-email-extensions';
+import { BlockManager, BasicType, AdvancedType } from 'suma-editor-base';
+import { EmailEditor, EmailEditorProvider } from 'suma-editor';
+import { ExtensionProps, StandardLayout } from 'suma-editor-extensions';
 
-import 'easy-email-editor/lib/style.css';
-import 'easy-email-extensions/lib/style.css';
+import 'suma-editor/lib/style.css';
+import 'suma-editor-extensions/lib/style.css';
 
 const categories: ExtensionProps['categories'] = [
   {

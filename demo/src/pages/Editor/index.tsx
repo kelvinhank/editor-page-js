@@ -28,22 +28,22 @@ import {
   EmailEditorProvider,
   EmailEditorProviderProps,
   IEmailTemplate,
-} from 'easy-email-editor';
+} from 'suma-editor';
 
 import { Stack } from '@demo/components/Stack';
 import { pushEvent } from '@demo/utils/pushEvent';
 import { FormApi } from 'final-form';
 import { UserStorage } from '@demo/utils/user-storage';
 
-import { AdvancedType, IBlockData, JsonToMjml } from 'easy-email-core';
-import { ExtensionProps, MjmlToJson, StandardLayout } from 'easy-email-extensions';
+import { AdvancedType, IBlockData, JsonToMjml } from 'suma-editor-base';
+import { ExtensionProps, MjmlToJson, StandardLayout } from 'suma-editor-extensions';
 import { AutoSaveAndRestoreEmail } from '@demo/components/AutoSaveAndRestoreEmail';
 
 // Register external blocks
 import './components/CustomBlocks';
 
-import 'easy-email-editor/lib/style.css';
-import 'easy-email-extensions/lib/style.css';
+import 'suma-editor/lib/style.css';
+import 'suma-editor-extensions/lib/style.css';
 import blueTheme from '@arco-themes/react-easy-email-theme/css/arco.css?inline';
 import purpleTheme from '@arco-themes/react-easy-email-theme-purple/css/arco.css?inline';
 import greenTheme from '@arco-themes/react-easy-email-theme-green/css/arco.css?inline';

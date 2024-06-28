@@ -1,4 +1,4 @@
-import { BasicType, AdvancedType } from 'easy-email-core';
+import { BasicType, AdvancedType } from 'suma-editor-base';
 import { get } from 'lodash';
 
 const iconsMap = {

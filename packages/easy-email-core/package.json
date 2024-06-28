@@ -1,8 +1,8 @@
 {
-  "name": "easy-email-core",
+  "name": "suma-editor-base",
   "license": "MIT",
   "description": "Email editor",
-  "version": "4.16.0",
+  "version": "1.0.0",
   "author": "m-Ryan",
   "repository": {
     "type": "git",

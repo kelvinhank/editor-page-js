@@ -1,4 +1,4 @@
-import { IBlockData } from 'easy-email-core';
+import { IBlockData } from 'suma-editor-base';
 import React, { useMemo } from 'react';
 
 export interface CollectedBlock {

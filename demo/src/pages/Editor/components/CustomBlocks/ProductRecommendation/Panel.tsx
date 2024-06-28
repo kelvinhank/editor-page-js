@@ -1,6 +1,11 @@
 import { Stack } from '@demo/components/Stack';
-import { useFocusIdx } from 'easy-email-editor';
-import { AttributesPanelWrapper, ColorPickerField, NumberField, TextField } from 'easy-email-extensions';
+import { useFocusIdx } from 'suma-editor';
+import {
+  AttributesPanelWrapper,
+  ColorPickerField,
+  NumberField,
+  TextField,
+} from 'suma-editor-extensions';
 import React from 'react';
 
 export function Panel() {

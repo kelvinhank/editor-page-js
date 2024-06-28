@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 
 import { Menu, Popover } from '@arco-design/web-react';
 import { ToolItem } from '../ToolItem';
-import { IconFont } from 'easy-email-editor';
+import { IconFont } from 'suma-editor';
 import { useFontFamily } from '@extensions/hooks/useFontFamily';
 import styleText from '../../styles/ToolsPopover.css?inline';
 
@@ -33,10 +33,10 @@ export function FontFamily(props: FontFamilyProps) {
       trigger='click'
       color='#fff'
       position='left'
-      className='easy-email-extensions-Tools-Popover'
+      className='suma-editor-extensions-Tools-Popover'
       popupVisible={visible}
       onVisibleChange={onVisibleChange}
-      content={(
+      content={
         <>
           <style>{styleText}</style>
           <div
@@ -63,7 +63,7 @@ export function FontFamily(props: FontFamilyProps) {
             </Menu>
           </div>
         </>
-      )}
+      }
       getPopupContainer={props.getPopupContainer}
     >
       <ToolItem

@@ -55,23 +55,23 @@ Pro version live demo here: <a href="https://demo.easyemail.pro/full?utm_source=
 ## Getting started
 
 ```sh
-$ npm install --save easy-email-core easy-email-editor easy-email-extensions react-final-form
+$ npm install --save suma-editor-base suma-editor suma-editor-extensions react-final-form
 ```
 
 or
 
 ```sh
-$ yarn add easy-email-core easy-email-editor easy-email-extensions react-final-form
+$ yarn add suma-editor-base suma-editor suma-editor-extensions react-final-form
 ```
 
 ```js
 import React from 'react';
-import { BlockManager, BasicType, AdvancedType } from 'easy-email-core';
-import { EmailEditor, EmailEditorProvider } from 'easy-email-editor';
-import { ExtensionProps, StandardLayout } from 'easy-email-extensions';
+import { BlockManager, BasicType, AdvancedType } from 'suma-editor-base';
+import { EmailEditor, EmailEditorProvider } from 'suma-editor';
+import { ExtensionProps, StandardLayout } from 'suma-editor-extensions';
 
-import 'easy-email-editor/lib/style.css';
-import 'easy-email-extensions/lib/style.css';
+import 'suma-editor/lib/style.css';
+import 'suma-editor-extensions/lib/style.css';
 
 // theme, If you need to change the theme, you can make a duplicate in https://arco.design/themes/design/1799/setting/base/Color
 import '@arco-themes/react-easy-email-theme/css/arco.css';

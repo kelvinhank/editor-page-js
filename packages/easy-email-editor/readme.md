@@ -1,4 +1,4 @@
-# Easy-email-editor
+# suma-editor
 
 ## Introduction
 
@@ -7,20 +7,20 @@ Email render and preview container.
 ## usage
 
 ```sh
-$ npm install --save easy-email-editor
+$ npm install --save suma-editor
 ```
 
 or
 
 ```sh
-$ yarn add easy-email-editor
+$ yarn add suma-editor
 ```
 
 ```js
 import React from 'react';
-import { BlockManager } from 'easy-email-core';
-import { EmailEditor, EmailEditorProvider } from 'easy-email-editor';
-import 'easy-email-editor/lib/style.css';
+import { BlockManager } from 'suma-editor-base';
+import { EmailEditor, EmailEditorProvider } from 'suma-editor';
+import 'suma-editor/lib/style.css';
 
 const initialValues = {
   subject: 'Welcome to Easy-email',
